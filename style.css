@@ -130,11 +130,8 @@ header {
     width: 335px;
     height: 73px;
     left: 193px;
-    top: 340px;
-
-}
-
-.form1 > fieldset {
+    top: 365px;
+    padding-left: 30px;
 
     display: flex;
 
@@ -148,7 +145,46 @@ header {
     border: 1px solid #FFC632;
     box-shadow: 0px 0px 0px 2px #FFDE88;
     border-radius: 4px;
+
+    background-color: transparent;
+
 }
+
+.email {
+
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    left: 193px;
+    top: 340px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #AFB6C2;
+}
+
+/* .form1 > fieldset {
+
+    display: flex;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 335px;
+    height: 44px;
+    
+
+    border: 1px solid #FFC632;
+    box-shadow: 0px 0px 0px 2px #FFDE88;
+    border-radius: 4px;
+} */
+
+
 
 .form1 > p {
 
@@ -166,17 +202,68 @@ header {
 
 .mail-focus {
 
+    position: absolute;
+
     width: 20px;
     height: 20px;
+    left: 200px;
+    top: 376px;
+
 }
 
 .form2 {
 
     position: absolute;
     width: 335px;
-    height: 73px;
+    height: 44px;
+    left: 193px;
+    top: 462px;
+    padding-left: 30px;
+    
+
+    box-sizing: border-box;
+
+
+    border: 1px solid #868686;
+    border-radius: 4px;
+    background-color: transparent;
+
+}
+
+.lock {
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 474px;
+}
+
+.eye {
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 496px;
+    top: 474px;
+}
+
+.password {
+
+    position: absolute;
+    width: 52px;
+    height: 24px;
     left: 193px;
     top: 433px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+
+    color: #AFB6C2;
 
 }
 
@@ -195,18 +282,7 @@ header {
     color: #AFB6C2;
 }
 
-.form2 > fieldset {
 
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 335px;
-    height: 44px;
-    
-
-    border: 1px solid #868686;
-    border-radius: 4px;
-}
 
 .form3 {
 
@@ -221,6 +297,15 @@ header {
 
 }
 
+.check {
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    background: #24221F;
+}
+
 .remember {
 
     position: absolute;
@@ -228,7 +313,7 @@ header {
     width: 81px;
     height: 19px;
     top: 0.2px;
-    left: 15px;
+    left: 22px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -272,6 +357,8 @@ button {
 
     background: #FFC632;
     border-radius: 4px;
+
+    border: none;
 
     
 }
